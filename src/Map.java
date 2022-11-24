@@ -178,7 +178,8 @@ public class Map<K, V> {
 				}
 		}
 		map.display();
-		System.out.println();
+		//Removing  avoidable from the string
+		System.out.println("Map After removing the avoidable string");
 		map.remove("avoidable");
 		map.display();
 		
